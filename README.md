@@ -1,6 +1,33 @@
 # test_grpc_hnishi
 This is a tutorial of gRPC.
 
+## Workflow
+
+on Anaonda environment
+
+- install grpcio-tools
+
+```bash
+conda install -c anaconda grpcio-tools
+# or you can pip
+# pip install grpcio-tools
+```
+
+- generate scripts
+
+```bash
+python codegen.py
+```
+
+- start server and client
+
+```bash
+python sample_server.py
+# open another console
+python sample_client.py
+# put your name on this console
+```
+
 ## Reference
 
 PythonでgRPCで双方向通信を試す。
